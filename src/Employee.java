@@ -14,5 +14,12 @@ public class Employee {
         this.salary=salary;
         this.age=age;
     }
-
+    public void printInfo(){
+        System.out.print(fio + " ");
+        System.out.print(position + " ");
+        System.out.print(email + " ");
+        System.out.print(phone + " ");
+        System.out.print(salary + " ");
+        System.out.print(age + " ");
+    }
 }
